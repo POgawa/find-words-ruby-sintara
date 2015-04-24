@@ -1,7 +1,5 @@
 require "sinatra"
-require "sinatra/reloader"
 require "./lib/words"
-also_reload "lib/**/*.rb"
 
 
 

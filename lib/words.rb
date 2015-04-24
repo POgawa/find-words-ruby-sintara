@@ -9,6 +9,7 @@ class String
     	if word == input
     		found_words<<word
       end
-  end
+    end
   found_words.length
+  end
 end
