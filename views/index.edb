@@ -1,0 +1,23 @@
+<h1>Is your word in the string??</h1>
+
+<form action="/winning">
+  <div class="form-group">
+     <label for="word">PLease put the sentence you would like to check:
+     </label>
+     <input id="word" name="word" class="form-control" type="text">
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+     <label for="input">What word would you like to check for?
+     </label>
+     <input id="input" name="input" class="form-control" type="text">
+  </div>
+
+    </br>
+    </br>
+
+  <button type="submit" class="btn-success">Send</button>
+</form>
