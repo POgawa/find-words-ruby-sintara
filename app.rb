@@ -1,5 +1,6 @@
 require "sinatra"
 require "./lib/words"
+require "rerun"
 
 
 
@@ -11,7 +12,7 @@ end
 
 get('/words') do
 
-  @words_in_string = word.words(input)
+  @words_in_string = params.fetch(word).words(params.fetch(input))
 
   erb(:words)
 
