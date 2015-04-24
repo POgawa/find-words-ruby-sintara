@@ -12,6 +12,8 @@ end
 
 get('/words') do
 
+  @word = params.fetch("word")
+  @input_word =params.fetch("input_word")
   @words_in_string = params.fetch("word").words(params.fetch("input_word"))
 
   erb(:words)
