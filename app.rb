@@ -16,6 +16,14 @@ get('/words') do
   @input_word =params.fetch("input_word")
   @words_in_string = params.fetch("word").words(params.fetch("input_word"))
 
+  @is_is_not =
+
+  if @words_in_string == 0
+    "Is NOT"
+  else
+    "IS"
+  end
+
   erb(:words)
 
 end
