@@ -3,7 +3,7 @@ class String
 
   	found_words = []
 
-    word_array = self.split(/\W+/)
+    word_array = self.downcase.split(/\W+/)
 
     word_array.each do |word|
     	if word == input_word
