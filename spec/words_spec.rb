@@ -15,4 +15,8 @@ describe("String#words") do
   it('returns 3 if there are three words in the sentence') do
     expect(("Words, words, words, things").words("words")).to(eq(3))
   end
+
+  it('returns 0 if there are three words in the sentence') do
+    expect(("word, word, word, things").words("words")).to(eq(0))
+  end
 end
