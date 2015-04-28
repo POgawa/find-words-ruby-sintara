@@ -32,10 +32,6 @@ If you discover any bugs, feel free to create an issue on GitHub. Please add as 
 possible to help us fixing the possible bug. We also encourage you to help even more by forking and
 sending us a pull request.
 
-## Maintainers
-1. Paul Ogawa (https://github.com/Pogawa)
-2. James Williams (https://github.com/finalfreq)
-
 ## License
 
 MIT License. Copyright 2015
